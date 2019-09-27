@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/controles"
+        android:layout_below="@id/ll_pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/controles"
+        android:layout_marginTop="145dp"
+        android:text="0"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bt_suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="321dp"
+        android:text="@string/suma">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bt_multiplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="321dp"
+        android:text="@string/multi">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bt_resta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="322dp"
+        android:text="@string/resta">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="549dp"
+        android:text="@string/numa"
+        android:textSize="25sp">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_numa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="535dp"
+        android:hint="Ingrese Num A"
+        android:inputType="number"
+        android:textSize="25sp">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="323dp"
+        android:text="@string/div">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="493dp"
+        android:text="@string/num_b"
+        android:textSize="25sp">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="477dp"
+        android:hint="Ingrese Num B"
+        android:inputType="number"
+        android:textSize="25sp">
+
+
+    </EditText>
+
+
+</RelativeLayout>
+
+
